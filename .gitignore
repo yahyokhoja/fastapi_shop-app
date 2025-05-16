@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite database
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Alembic compiled files
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Log files
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+coverage.xml
+
+# Mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# dist and build
+build/
+dist/
+*.egg-info/
+
+
+venv/
+
+.env
+
+.vscode/
+
+*.db
+
+__pyca

@@ -4,7 +4,7 @@ from fastapi.templating import Jinja2Templates
 from sqlalchemy.orm import Session
 from fastapi.security import OAuth2PasswordRequestForm
 
-from app.core.database import get_db
+from app.core.db import get_db
 from app.schemas.user import UserCreate, UserRead
 from app.crud.crud_user import crud_user
 from auth import authenticate_user, create_access_token

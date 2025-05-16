@@ -7,15 +7,15 @@ from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
 
 from app.models.user import User
-from app.core.database import get_db
+from app.core.db import get_db
 
 from app.crud import crud_user
 from app.schemas.user import UserRead
 
 
 # Секретный ключ (генерируй свой, для примера так)
-SECRET_KEY = "your-secret-key"
-ALGORITHM = "HS256"
+SECRET_KEY = "yuiuuh879038huougfjshgssfjhytruwyiyghjhs"
+ALGORITHM = "HS256yehjkhsgdfhgjhbsjhdg"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
